@@ -1,26 +1,85 @@
-import React from "react";
-import 'bootstrap/dist/css/bootstrap.css';
-import Capa from '../images/Capa.png'
+import React from 'react';
+
+const Card = () => (
+    
+    <div className="Cards">
+
+        <h1>Nuestros productos</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-top-left">
+                        <div class="card-inner">
+                            <img src="img/Capa-1.png" class="card-img-top" alt="..." />
+                            <h3 class="card-title">Lavatorio</h3>
+                            <div class="card-body">Mueble colgante para Lavatorio.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card-wrapper">
+                        <div class="card card-top-left">
+                            <div class="card-inner">
+                                <img src="img/Capa-1.png" class="card-img-top" alt="..." />
+                                <h3 class="card-title">Lavatorio</h3>
+                                <div class="card-body">Mueble colgante para Lavatorio.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
-const Productos =
+                <div class="col-md-4">
+                    <div class="card-wrapper">
+                        <div class="card card-top-left">
+                            <div class="card-inner">
+                                <img src="img/Capa-1.png" class="card-img-top" alt="..." />
+                                <h3 class="card-title">Lavatorio</h3>
+                                <div class="card-body">Mueble colgante para Lavatorio.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-wrapper">
+                        <div class="card card-top-left">
+                            <div class="card-inner">
+                                <img src="img/Capa-1.png" class="card-img-top" alt="..." />
+                                <h3 class="card-title">Lavatorio</h3>
+                                <div class="card-body">Mueble colgante para Lavatorio.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-wrapper">
+                        <div class="card card-top-left">
+                            <div class="card-inner">
+                                <img src="img/Capa-1.png" class="card-img-top" alt="..." />
+                                <h3 class="card-title">Lavatorio</h3>
+                                <div class="card-body">Mueble colgante para Lavatorio.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-wrapper">
+                        <div class="card card-top-left">
+                            <div class="card-inner">
+                                <img src="img/Capa-1.png" class="card-img-top" alt="..." />
+                                <h3 class="card-title">Lavatorio</h3>
+                                <div class="card-body">Mueble colgante para Lavatorio.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-[
-    {
-        Nombre: "Lavatorio",
-        Precio: 49.99,
-        Capa
-    },
-    {
-        Nombre: ""
-    }
-]
 
+    </div>
 
-const Card = () => {
-
-
-}
-
-
+)
 export default Card;
