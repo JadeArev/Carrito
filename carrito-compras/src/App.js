@@ -1,13 +1,13 @@
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './css/styles.css';
-import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./screens/Home";
 import Layout from "./components/Layout";
 import Contacto from "./screens/Contacto";
 import QuienesSomos from "./screens/QuienesSomos";
 import Productos from "./components/Productos";
-import { CarritoContext } from "./context";
+import { CarritoContext } from "./Context";
 import Carrito from "./screens/Carrito";
 import Pago from "./screens/Pago";
 

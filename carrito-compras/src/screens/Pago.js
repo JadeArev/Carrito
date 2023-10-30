@@ -1,4 +1,4 @@
-import { CarritoContext } from "../context";
+import { CarritoContext } from "../Context";
 import { useContext } from "react";
 export default function Pago() {
     const [carrito, setCarrito] = useContext(CarritoContext);

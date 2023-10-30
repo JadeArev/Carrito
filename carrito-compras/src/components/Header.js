@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { CarritoContext } from '../context';
+import { CarritoContext } from '../Context';
 
 const Header = () => {
 
