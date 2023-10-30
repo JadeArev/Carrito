@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.css';
+import './css/styles.css';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./screens/Home";
@@ -8,8 +10,6 @@ import Productos from "./components/Productos";
 import { CarritoContext } from "./context";
 import Carrito from "./screens/Carrito";
 import Pago from "./screens/Pago";
-import './css/bootstrap.min.css';
-import './css/styles.css';
 
 const App = () => {
   const [carrito,setCarrito] = React.useState([])
